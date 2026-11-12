@@ -1,0 +1,829 @@
+{
+  "analysis_version": 1,
+  "bootstrap": {
+    "confidence": 0.95,
+    "method": "ticket-cluster percentile bootstrap",
+    "replicates": 200,
+    "seed": 20240101,
+    "stratified_by_channel": true
+  },
+  "channels": [
+    {
+      "at_horizon": {
+        "at_risk": 4,
+        "cancellation": 0.0,
+        "cancelled": 0,
+        "completed": 0,
+        "completion": 0.0,
+        "time": 12.0,
+        "waiting": 1.0
+      },
+      "by_product": {
+        "P0": {
+          "enrolled": 4,
+          "event_counts": {
+            "cancel": 1,
+            "complete": 0,
+            "waiting": 3
+          }
+        },
+        "P1": {
+          "enrolled": 4,
+          "event_counts": {
+            "cancel": 0,
+            "complete": 1,
+            "waiting": 3
+          }
+        }
+      },
+      "curve": [
+        {
+          "at_risk": 8,
+          "cancel_events": 0,
+          "cancellation": 0.0,
+          "complete_events": 0,
+          "completion": 0.0,
+          "time": 0,
+          "waiting": 1.0
+        },
+        {
+          "at_risk": 4,
+          "cancel_events": 0,
+          "cancellation": 0.0,
+          "complete_events": 0,
+          "completion": 0.0,
+          "time": 12.0,
+          "waiting": 1.0
+        },
+        {
+          "at_risk": 2,
+          "cancel_events": 0,
+          "cancellation": 0.0,
+          "complete_events": 1,
+          "completion": 0.5,
+          "time": 19,
+          "waiting": 0.5
+        },
+        {
+          "at_risk": 1,
+          "cancel_events": 1,
+          "cancellation": 0.5,
+          "complete_events": 0,
+          "completion": 0.5,
+          "time": 22,
+          "waiting": 0.0
+        }
+      ],
+      "enrolled": 8,
+      "event_counts": {
+        "cancel": 1,
+        "complete": 1,
+        "waiting": 6
+      },
+      "group": "channel-0",
+      "intervals": {
+        "cancellation": [
+          0.0,
+          0.0
+        ],
+        "completion": [
+          0.0,
+          0.0
+        ],
+        "waiting": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "at_horizon": {
+        "at_risk": 4,
+        "cancellation": 0.0,
+        "cancelled": 0,
+        "completed": 0,
+        "completion": 0.0,
+        "time": 12.0,
+        "waiting": 1.0
+      },
+      "by_product": {
+        "P0": {
+          "enrolled": 4,
+          "event_counts": {
+            "cancel": 1,
+            "complete": 0,
+            "waiting": 3
+          }
+        },
+        "P1": {
+          "enrolled": 4,
+          "event_counts": {
+            "cancel": 0,
+            "complete": 0,
+            "waiting": 4
+          }
+        }
+      },
+      "curve": [
+        {
+          "at_risk": 8,
+          "cancel_events": 0,
+          "cancellation": 0.0,
+          "complete_events": 0,
+          "completion": 0.0,
+          "time": 0,
+          "waiting": 1.0
+        },
+        {
+          "at_risk": 4,
+          "cancel_events": 0,
+          "cancellation": 0.0,
+          "complete_events": 0,
+          "completion": 0.0,
+          "time": 12.0,
+          "waiting": 1.0
+        },
+        {
+          "at_risk": 2,
+          "cancel_events": 1,
+          "cancellation": 0.5,
+          "complete_events": 0,
+          "completion": 0.0,
+          "time": 19,
+          "waiting": 0.5
+        }
+      ],
+      "enrolled": 8,
+      "event_counts": {
+        "cancel": 1,
+        "complete": 0,
+        "waiting": 7
+      },
+      "group": "channel-1",
+      "intervals": {
+        "cancellation": [
+          0.0,
+          0.0
+        ],
+        "completion": [
+          0.0,
+          0.0
+        ],
+        "waiting": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "at_horizon": {
+        "at_risk": 4,
+        "cancellation": 0.0,
+        "cancelled": 0,
+        "completed": 0,
+        "completion": 0.0,
+        "time": 12.0,
+        "waiting": 1.0
+      },
+      "by_product": {
+        "P0": {
+          "enrolled": 4,
+          "event_counts": {
+            "cancel": 0,
+            "complete": 1,
+            "waiting": 3
+          }
+        },
+        "P1": {
+          "enrolled": 4,
+          "event_counts": {
+            "cancel": 0,
+            "complete": 0,
+            "waiting": 4
+          }
+        }
+      },
+      "curve": [
+        {
+          "at_risk": 8,
+          "cancel_events": 0,
+          "cancellation": 0.0,
+          "complete_events": 0,
+          "completion": 0.0,
+          "time": 0,
+          "waiting": 1.0
+        },
+        {
+          "at_risk": 4,
+          "cancel_events": 0,
+          "cancellation": 0.0,
+          "complete_events": 0,
+          "completion": 0.0,
+          "time": 12.0,
+          "waiting": 1.0
+        },
+        {
+          "at_risk": 1,
+          "cancel_events": 0,
+          "cancellation": 0.0,
+          "complete_events": 1,
+          "completion": 1.0,
+          "time": 22,
+          "waiting": 0.0
+        }
+      ],
+      "enrolled": 8,
+      "event_counts": {
+        "cancel": 0,
+        "complete": 1,
+        "waiting": 7
+      },
+      "group": "channel-2",
+      "intervals": {
+        "cancellation": [
+          0.0,
+          0.0
+        ],
+        "completion": [
+          0.0,
+          0.0
+        ],
+        "waiting": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "cohort": {
+    "by_channel": {
+      "channel-0": {
+        "cancel": 1,
+        "complete": 1,
+        "waiting": 6
+      },
+      "channel-1": {
+        "cancel": 1,
+        "complete": 0,
+        "waiting": 7
+      },
+      "channel-2": {
+        "cancel": 0,
+        "complete": 1,
+        "waiting": 7
+      }
+    },
+    "by_product": {
+      "P0": {
+        "enrolled": 12,
+        "event_counts": {
+          "cancel": 2,
+          "complete": 1,
+          "waiting": 9
+        }
+      },
+      "P1": {
+        "enrolled": 12,
+        "event_counts": {
+          "cancel": 0,
+          "complete": 1,
+          "waiting": 11
+        }
+      }
+    },
+    "enrolled": 24,
+    "event_counts": {
+      "cancel": 2,
+      "complete": 2,
+      "waiting": 20
+    }
+  },
+  "cutoff": 24.0,
+  "horizon": 12.0,
+  "input": {
+    "rows_used": 108,
+    "tickets_seen": 24
+  },
+  "overall": {
+    "at_horizon": {
+      "at_risk": 12,
+      "cancellation": 0.0,
+      "cancelled": 0,
+      "completed": 0,
+      "completion": 0.0,
+      "time": 12.0,
+      "waiting": 1.0
+    },
+    "curve": [
+      {
+        "at_risk": 24,
+        "cancel_events": 0,
+        "cancellation": 0.0,
+        "complete_events": 0,
+        "completion": 0.0,
+        "time": 0,
+        "waiting": 1.0
+      },
+      {
+        "at_risk": 12,
+        "cancel_events": 0,
+        "cancellation": 0.0,
+        "complete_events": 0,
+        "completion": 0.0,
+        "time": 12.0,
+        "waiting": 1.0
+      },
+      {
+        "at_risk": 6,
+        "cancel_events": 1,
+        "cancellation": 0.16666666666666666,
+        "complete_events": 1,
+        "completion": 0.16666666666666666,
+        "time": 19,
+        "waiting": 0.6666666666666667
+      },
+      {
+        "at_risk": 3,
+        "cancel_events": 1,
+        "cancellation": 0.3888888888888889,
+        "complete_events": 1,
+        "completion": 0.3888888888888889,
+        "time": 22,
+        "waiting": 0.22222222222222227
+      }
+    ],
+    "enrolled": 24,
+    "event_counts": {
+      "cancel": 2,
+      "complete": 2,
+      "waiting": 20
+    },
+    "intervals": {
+      "cancellation": [
+        0.0,
+        0.0
+      ],
+      "completion": [
+        0.0,
+        0.0
+      ],
+      "waiting": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "primary_outcome": {
+    "competing_event": "cancel",
+    "event": "complete",
+    "horizon": 12.0,
+    "measure": "cumulative incidence of completion"
+  },
+  "product": "repair-competing-risks",
+  "queue": {
+    "algorithm": "latest-known-observation/v1",
+    "cutoff": 24.0,
+    "definition": "ticket-level queue: latest record with observed <= cutoff, opened <= cutoff; outcome as of that record only; later revisions are ignored",
+    "tickets": [
+      {
+        "channel": "channel-0",
+        "event": "cancel",
+        "observed": 22,
+        "opened": 0,
+        "product": "P0",
+        "revision": 7,
+        "ticket": "T00",
+        "time": 22
+      },
+      {
+        "channel": "channel-1",
+        "event": "waiting",
+        "observed": 23,
+        "opened": 1,
+        "product": "P1",
+        "revision": 7,
+        "ticket": "T01",
+        "time": 22
+      },
+      {
+        "channel": "channel-2",
+        "event": "complete",
+        "observed": 24,
+        "opened": 2,
+        "product": "P0",
+        "revision": 7,
+        "ticket": "T02",
+        "time": 22
+      },
+      {
+        "channel": "channel-0",
+        "event": "complete",
+        "observed": 22,
+        "opened": 3,
+        "product": "P1",
+        "revision": 6,
+        "ticket": "T03",
+        "time": 19
+      },
+      {
+        "channel": "channel-1",
+        "event": "cancel",
+        "observed": 23,
+        "opened": 4,
+        "product": "P0",
+        "revision": 6,
+        "ticket": "T04",
+        "time": 19
+      },
+      {
+        "channel": "channel-2",
+        "event": "waiting",
+        "observed": 24,
+        "opened": 5,
+        "product": "P1",
+        "revision": 6,
+        "ticket": "T05",
+        "time": 19
+      },
+      {
+        "channel": "channel-0",
+        "event": "waiting",
+        "observed": 22,
+        "opened": 6,
+        "product": "P0",
+        "revision": 5,
+        "ticket": "T06",
+        "time": 16
+      },
+      {
+        "channel": "channel-1",
+        "event": "waiting",
+        "observed": 23,
+        "opened": 7,
+        "product": "P1",
+        "revision": 5,
+        "ticket": "T07",
+        "time": 16
+      },
+      {
+        "channel": "channel-2",
+        "event": "waiting",
+        "observed": 24,
+        "opened": 8,
+        "product": "P0",
+        "revision": 5,
+        "ticket": "T08",
+        "time": 16
+      },
+      {
+        "channel": "channel-0",
+        "event": "waiting",
+        "observed": 22,
+        "opened": 9,
+        "product": "P1",
+        "revision": 4,
+        "ticket": "T09",
+        "time": 13
+      },
+      {
+        "channel": "channel-1",
+        "event": "waiting",
+        "observed": 23,
+        "opened": 10,
+        "product": "P0",
+        "revision": 4,
+        "ticket": "T10",
+        "time": 13
+      },
+      {
+        "channel": "channel-2",
+        "event": "waiting",
+        "observed": 24,
+        "opened": 11,
+        "product": "P1",
+        "revision": 4,
+        "ticket": "T11",
+        "time": 13
+      },
+      {
+        "channel": "channel-0",
+        "event": "waiting",
+        "observed": 22,
+        "opened": 12,
+        "product": "P0",
+        "revision": 3,
+        "ticket": "T12",
+        "time": 10
+      },
+      {
+        "channel": "channel-1",
+        "event": "waiting",
+        "observed": 23,
+        "opened": 13,
+        "product": "P1",
+        "revision": 3,
+        "ticket": "T13",
+        "time": 10
+      },
+      {
+        "channel": "channel-2",
+        "event": "waiting",
+        "observed": 24,
+        "opened": 14,
+        "product": "P0",
+        "revision": 3,
+        "ticket": "T14",
+        "time": 10
+      },
+      {
+        "channel": "channel-0",
+        "event": "waiting",
+        "observed": 22,
+        "opened": 15,
+        "product": "P1",
+        "revision": 2,
+        "ticket": "T15",
+        "time": 7
+      },
+      {
+        "channel": "channel-1",
+        "event": "waiting",
+        "observed": 23,
+        "opened": 16,
+        "product": "P0",
+        "revision": 2,
+        "ticket": "T16",
+        "time": 7
+      },
+      {
+        "channel": "channel-2",
+        "event": "waiting",
+        "observed": 24,
+        "opened": 17,
+        "product": "P1",
+        "revision": 2,
+        "ticket": "T17",
+        "time": 7
+      },
+      {
+        "channel": "channel-0",
+        "event": "waiting",
+        "observed": 22,
+        "opened": 18,
+        "product": "P0",
+        "revision": 1,
+        "ticket": "T18",
+        "time": 4
+      },
+      {
+        "channel": "channel-1",
+        "event": "waiting",
+        "observed": 23,
+        "opened": 19,
+        "product": "P1",
+        "revision": 1,
+        "ticket": "T19",
+        "time": 4
+      },
+      {
+        "channel": "channel-2",
+        "event": "waiting",
+        "observed": 24,
+        "opened": 20,
+        "product": "P0",
+        "revision": 1,
+        "ticket": "T20",
+        "time": 4
+      },
+      {
+        "channel": "channel-0",
+        "event": "waiting",
+        "observed": 22,
+        "opened": 21,
+        "product": "P1",
+        "revision": 0,
+        "ticket": "T21",
+        "time": 1
+      },
+      {
+        "channel": "channel-1",
+        "event": "waiting",
+        "observed": 23,
+        "opened": 22,
+        "product": "P0",
+        "revision": 0,
+        "ticket": "T22",
+        "time": 1
+      },
+      {
+        "channel": "channel-2",
+        "event": "waiting",
+        "observed": 24,
+        "opened": 23,
+        "product": "P1",
+        "revision": 0,
+        "ticket": "T23",
+        "time": 1
+      }
+    ],
+    "version": "latest-known-observation/v1@1a8d3ae410051dae"
+  },
+  "queue_version": "latest-known-observation/v1@1a8d3ae410051dae",
+  "standardized_comparison": {
+    "channels": [
+      {
+        "complete_support": true,
+        "group": "channel-0",
+        "intervals": {
+          "cancellation": [
+            0.0,
+            0.0
+          ],
+          "completion": [
+            0.0,
+            0.0
+          ],
+          "waiting": [
+            1.0,
+            1.0
+          ]
+        },
+        "missing_common_products": [],
+        "outside_common_products": [],
+        "standardized_at_horizon": {
+          "cancellation": 0.0,
+          "completion": 0.0,
+          "time": 12.0,
+          "waiting": 1.0
+        }
+      },
+      {
+        "complete_support": true,
+        "group": "channel-1",
+        "intervals": {
+          "cancellation": [
+            0.0,
+            0.0
+          ],
+          "completion": [
+            0.0,
+            0.0
+          ],
+          "waiting": [
+            1.0,
+            1.0
+          ]
+        },
+        "missing_common_products": [],
+        "outside_common_products": [],
+        "standardized_at_horizon": {
+          "cancellation": 0.0,
+          "completion": 0.0,
+          "time": 12.0,
+          "waiting": 1.0
+        }
+      },
+      {
+        "complete_support": true,
+        "group": "channel-2",
+        "intervals": {
+          "cancellation": [
+            0.0,
+            0.0
+          ],
+          "completion": [
+            0.0,
+            0.0
+          ],
+          "waiting": [
+            1.0,
+            1.0
+          ]
+        },
+        "missing_common_products": [],
+        "outside_common_products": [],
+        "standardized_at_horizon": {
+          "cancellation": 0.0,
+          "completion": 0.0,
+          "time": 12.0,
+          "waiting": 1.0
+        }
+      }
+    ],
+    "common_products": [
+      "P0",
+      "P1"
+    ],
+    "method": "direct standardization to a pooled common-product structure",
+    "non_common_products": [],
+    "pairwise": [
+      {
+        "common_products": [
+          "P0",
+          "P1"
+        ],
+        "comparable": true,
+        "differences": {
+          "cancellation": 0.0,
+          "completion": 0.0,
+          "waiting": 0.0
+        },
+        "group": "channel-1",
+        "incomparable_products": [],
+        "intervals": {
+          "cancellation": [
+            0.0,
+            0.0
+          ],
+          "completion": [
+            0.0,
+            0.0
+          ],
+          "waiting": [
+            0.0,
+            0.0
+          ]
+        },
+        "reference": "channel-0",
+        "standard_weights": {
+          "P0": 0.5,
+          "P1": 0.5
+        },
+        "standardization_scope": "all-channel-common"
+      },
+      {
+        "common_products": [
+          "P0",
+          "P1"
+        ],
+        "comparable": true,
+        "differences": {
+          "cancellation": 0.0,
+          "completion": 0.0,
+          "waiting": 0.0
+        },
+        "group": "channel-2",
+        "incomparable_products": [],
+        "intervals": {
+          "cancellation": [
+            0.0,
+            0.0
+          ],
+          "completion": [
+            0.0,
+            0.0
+          ],
+          "waiting": [
+            0.0,
+            0.0
+          ]
+        },
+        "reference": "channel-0",
+        "standard_weights": {
+          "P0": 0.5,
+          "P1": 0.5
+        },
+        "standardization_scope": "all-channel-common"
+      },
+      {
+        "common_products": [
+          "P0",
+          "P1"
+        ],
+        "comparable": true,
+        "differences": {
+          "cancellation": 0.0,
+          "completion": 0.0,
+          "waiting": 0.0
+        },
+        "group": "channel-2",
+        "incomparable_products": [],
+        "intervals": {
+          "cancellation": [
+            0.0,
+            0.0
+          ],
+          "completion": [
+            0.0,
+            0.0
+          ],
+          "waiting": [
+            0.0,
+            0.0
+          ]
+        },
+        "reference": "channel-1",
+        "standard_weights": {
+          "P0": 0.5,
+          "P1": 0.5
+        },
+        "standardization_scope": "all-channel-common"
+      }
+    ],
+    "standard_weights": {
+      "P0": 0.5,
+      "P1": 0.5
+    }
+  },
+  "unit": "小时"
+}
